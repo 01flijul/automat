@@ -39,6 +39,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.produkt_cola = new System.Windows.Forms.Button();
             this.label_2 = new System.Windows.Forms.Label();
+            this.tb_restgeld = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -58,6 +60,7 @@
             this.produkt_fanta.TabIndex = 1;
             this.produkt_fanta.Text = "Fanta";
             this.produkt_fanta.UseVisualStyleBackColor = true;
+            this.produkt_fanta.Click += new System.EventHandler(this.produkt_fanta_Click);
             // 
             // label1
             // 
@@ -79,10 +82,12 @@
             // 
             // tb_eingeworfen
             // 
+            this.tb_eingeworfen.Enabled = false;
             this.tb_eingeworfen.Location = new System.Drawing.Point(775, 274);
             this.tb_eingeworfen.Name = "tb_eingeworfen";
             this.tb_eingeworfen.Size = new System.Drawing.Size(100, 20);
             this.tb_eingeworfen.TabIndex = 4;
+            this.tb_eingeworfen.Text = "7";
             // 
             // einwerfen_050
             // 
@@ -128,21 +133,41 @@
             this.produkt_cola.TabIndex = 9;
             this.produkt_cola.Text = "Cola";
             this.produkt_cola.UseVisualStyleBackColor = true;
+            this.produkt_cola.Click += new System.EventHandler(this.produkt_cola_Click);
             // 
             // label_2
             // 
             this.label_2.AutoSize = true;
             this.label_2.Location = new System.Drawing.Point(154, 124);
             this.label_2.Name = "label_2";
-            this.label_2.Size = new System.Drawing.Size(28, 13);
+            this.label_2.Size = new System.Drawing.Size(34, 13);
             this.label_2.TabIndex = 10;
-            this.label_2.Text = "Cola";
+            this.label_2.Text = "1,20€";
+            // 
+            // tb_restgeld
+            // 
+            this.tb_restgeld.Enabled = false;
+            this.tb_restgeld.Location = new System.Drawing.Point(775, 369);
+            this.tb_restgeld.Name = "tb_restgeld";
+            this.tb_restgeld.Size = new System.Drawing.Size(100, 20);
+            this.tb_restgeld.TabIndex = 11;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(704, 375);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(49, 13);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "Restgeld";
             // 
             // einwerfen_010
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(920, 782);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.tb_restgeld);
             this.Controls.Add(this.label_2);
             this.Controls.Add(this.produkt_cola);
             this.Controls.Add(this.label2);
@@ -174,6 +199,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button produkt_cola;
         private System.Windows.Forms.Label label_2;
+        private System.Windows.Forms.TextBox tb_restgeld;
+        private System.Windows.Forms.Label label3;
     }
 }
 
