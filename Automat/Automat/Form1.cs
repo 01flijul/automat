@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace Automat
 {
-    public partial class Form1 : Form
+    public partial class einwerfen_010 : Form
     {
-        public Form1()
+        public einwerfen_010()
         {
             InitializeComponent();
         }
