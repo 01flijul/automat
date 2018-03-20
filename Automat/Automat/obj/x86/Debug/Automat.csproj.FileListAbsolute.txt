@@ -5,3 +5,5 @@ H:\Eigene Dokumente\automat1\Automat\Automat\obj\x86\Debug\Automat.Properties.Re
 H:\Eigene Dokumente\automat1\Automat\Automat\obj\x86\Debug\Automat.csproj.GenerateResource.Cache
 H:\Eigene Dokumente\automat1\Automat\Automat\obj\x86\Debug\Automat.exe
 H:\Eigene Dokumente\automat1\Automat\Automat\obj\x86\Debug\Automat.pdb
+H:\Eigene Dokumente\Automaten3\Automat\Automat\obj\x86\Debug\Automat.exe
+H:\Eigene Dokumente\Automaten3\Automat\Automat\obj\x86\Debug\Automat.pdb

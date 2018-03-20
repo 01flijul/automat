@@ -41,6 +41,7 @@
             this.label_2 = new System.Windows.Forms.Label();
             this.tb_restgeld = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.produkt_IceTea = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -161,11 +162,21 @@
             this.label3.TabIndex = 12;
             this.label3.Text = "Restgeld";
             // 
+            // produkt_IceTea
+            // 
+            this.produkt_IceTea.Location = new System.Drawing.Point(51, 174);
+            this.produkt_IceTea.Name = "produkt_IceTea";
+            this.produkt_IceTea.Size = new System.Drawing.Size(75, 23);
+            this.produkt_IceTea.TabIndex = 13;
+            this.produkt_IceTea.Text = "Ice Tea";
+            this.produkt_IceTea.UseVisualStyleBackColor = true;
+            // 
             // einwerfen_010
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(920, 782);
+            this.Controls.Add(this.produkt_IceTea);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.tb_restgeld);
             this.Controls.Add(this.label_2);
@@ -201,6 +212,7 @@
         private System.Windows.Forms.Label label_2;
         private System.Windows.Forms.TextBox tb_restgeld;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button produkt_IceTea;
     }
 }
 
